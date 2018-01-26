@@ -1,0 +1,17 @@
+
+//JavaScript FOREACH
+
+a.forEach(function(element)
+{
+	console.log(element);
+});
+
+// Crear elemento HTML con JavaScript
+
+var div = document.createElement("div");
+div.innerHTML = "TEXTO de prueba";
+
+// Adjuntar hijo
+
+document.querySelector("#mi-contenido").appendChild(div);
+
